@@ -1,17 +1,19 @@
 ##Создание и настройка виртуальных машин
 -----
 1. Создадим виртуальные машины в VirtualBox
-![](Practice_Linux/screenshots/iptables.png)
+![]()
 2. Настроим сеть сервера
-![](network1.png)
-![](network2.png)
+
+
+
+
+
 3. Настроим сеть шлюза
-![](gateway1.png)
-![](gateway2.png)
-![](gateway3.png)
+
 4. Настроим сеть клиента
-![](client1.png)
-![](client2.png)
+![](screenshots/client_network1.png)
+![](screenshots/client_network2.png)
+![](screenshots/client_network.png)
 ## Настройка профилей виртуальных машин
 ------
 1. Настройка профиля сервера
@@ -29,49 +31,42 @@
 ## Конфигурация сети сервера
 ----
 1. Редактирование конфига с настройками сети сервера
-![](server_network.png)
+![](screenshots/server_network.png)
 2. Настройка конфига в текстовом редакторе
-![](server_network2.png)
+![](screenshots/server_network2.png)
 3. Проверка конфига на ошибки и его применение
-![](server_network3.png)
+![](screenshots/server_network3.png)
 4. Вывод на экран настроенных сетевых интерфейсов сервера
-![](server_network4.png)
+![](screenshots/server_network4.png)
 ## Конфигурация сети шлюза
 -----
 1. Редактирование конфига с настройками сети шлюза
-![](gateway_network1.png)
+![](screenshots/gateway_network1.png)
 2. Настройка конфига в текстовом редакторе
-![](gateway_network2.png)
+![](screenshots/gateway_network2.png)
 3. Проверка конфига на ошибки и его применение
-![](gateway_network3.png)
+![](screenshots/gateway_network3.png)
 4. Вывод на экран настроенных сетевых интерфейсов шлюза
-![](gateway_network4.png)
+![](screenshots/gateway_network4.png)
 ## Конфигурация сети клиента
 -----
 1. Редактирование конфига с настройками сети клиента
-![](client_network1.png)
+![](screenshots/client_network1.png)
 2. Настройка конфига в текстовом редакторе
-![](client_network2.png)
+![](screenshots/client_network2.png)
 3. Проверка конфига на ошибки и его применение
-![](client_network3.png)
+![](screenshots/client_network3.png)
 4. Вывод на экран настроенных сетевых интерфейсов клиента
-![](client_network4.png)
 ## Создание http-сервера
 -------
 1. Установим на виртуальную машину (сервер) дистрибутив Python
-![](python1.png)
-2. Создадим виртуальное окружение
-![](python2.png)
-3. Установим библиотеку FLask
-![](python3.png)
-4. Результаты установки
-![](python4.png)
-5. Установим Flask в созданное виртуальное окружение, так как при установке Flask в домашнюю директорию выдается предупреждение
-![](python5.png)
+![](screenshots/python1.png)
+2. Установим библиотеку FLask
+![](screenshots/python3.png)
 6. Создадим текстовый файл,содержащий скрипт создания http-сервера на языке Python
-![](python6.png)
+![](screenshots/flask.png)
 7. Вручную запустим скрипт
-![](python7.png)
+![](screenshots/python7.png)
 ## Создание службы автозапуска
 ------
 1. В папке с сервисами создадим текстовый документ
@@ -84,17 +79,15 @@
 ![](service4.png)
 ## Настройка маршрута пакетов с помощью iptables
 ----
-1. Настройка пропуска пакетов, имеющих протокол tcp через 5000 порт
-![](iptables.png)
-2. Запрет на отправку всех пакетов по умолчанию
-![](iptables2.png)
+1. Настройка пропуска пакетов, имеющих протокол tcp через 5000 порт. Запрет на отправку всех пакетов по умолчанию
+![](screenshots/iptables.png)
 3. Список всех ограничений iptables
-![](iptables3.png)
-4. Сохранение настроек iptables
-![](iptables4.png)
+![](screenshots/iptables2.png)
+4. Попытка сохранения ограничений iptables
+![](screenshots/save_iptables.png)
 5. Сохранение настроек iptables в отдельный файл
-![](iptables5.png)
-![](iptables6.png)
+![](screenshots/save_iptables2.png)
+
 
 
 ## Настройка сквозного прохода пакетов через шлюз 
