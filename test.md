@@ -1,7 +1,7 @@
 ##Создание и настройка виртуальных машин
 -----
 1. Создадим виртуальные машины в VirtualBox
-![](1.png)
+![](Practice_Linux/screenshots/iptables.png)
 2. Настроим сеть сервера
 ![](network1.png)
 ![](network2.png)
