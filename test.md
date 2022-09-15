@@ -102,4 +102,18 @@
 ![](proverka.png)
 
 ## Проверка пингов без iptables
+--------
+1. Выключим правила iptables
+![](screenshots/iptables_reset.png)
+2. Пингуем шлюз с клиента
+![](screenshots/ping_client_to_gateway.png)
+3. Пингуем сервер со шлюза
+![](screenshots/ping_gateway_to_server.png)
+4. Пингуем шлюз с сервера 
+![](screenshots/ping_server_to_gateway.png)
+5. Провеим перенаправление пакетов
+![](screenshots/proverka_forward.png)
+6. Попингуем сервер с клиента
+![](screenshots/ping_client_to_server.png)
+
 
