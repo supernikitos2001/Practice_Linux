@@ -1,4 +1,5 @@
 ## Создание и настройка виртуальных машин
+
 1. Создадим виртуальные машины в VirtualBox
 
 ![](screenshots/create.png)
@@ -192,4 +193,27 @@
 
 ![](screenshots/ping_client_to_server.png)
 
+## Перенос конфигурационных файлов на основную ОС
 
+1. С помощью FileZilla установим sftp соединение с сервером
+
+![](screenshots/sftp_server1.png)
+
+2. Из пути /etc/netplan вытащим конфигурационный файл и перенесем его в любую папку основной ОС
+![](screenshots/sftp_server2.png)
+
+3. sftp соединение со шлюзом
+
+![](screenshots/sftp_gateway1.png)
+
+4. Перенос конфига сети шлюза в основную ОС
+
+![](screenshots/sftp_gateway2.png)
+
+5.sftp соединение с клиентом
+
+![](screenshots/sftp_client1.png)
+
+6. Перенос конфига сети клиента в основную ОС
+
+![](screenshots/sftp_client2.png)
