@@ -121,19 +121,19 @@
 
 1. В папке с сервисами создадим текстовый документ
 
-![](service1.png)
+![](screenshots/service1.png)
 
 2. Необходимый текст внутри текстового документа
 
-![](service2.png)
+![](screenshots/service2.png)
 
 3. Включим службу
 
-![](service3.png)
+![](screenshots/service3.png)
 
 4. Служба не включилась
 
-![](service4.png)
+![](screenshots/service4.png)
 
 ## Настройка маршрута пакетов с помощью iptables
 
