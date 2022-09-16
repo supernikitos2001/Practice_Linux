@@ -17,9 +17,9 @@
 
 4. Настроим сеть клиента
 
-![](screenshots/client_network1.png)
-![](screenshots/client_network2.png)
-![](screenshots/client_network.png)
+![](screenshots/client_virt1.png)
+![](screenshots/client_virt2.png)
+![](screenshots/client_virt3.png)
 
 ## Настройка профилей виртуальных машин
 
