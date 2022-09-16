@@ -141,15 +141,15 @@
 
 ![](screenshots/iptables.png)
 
-3. Список всех ограничений iptables
+2. Список всех ограничений iptables
 
 ![](screenshots/iptables2.png)
 
-4. Попытка сохранения ограничений iptables
+3. Попытка сохранения ограничений iptables
 
 ![](screenshots/save_iptables.png)
 
-5. Сохранение настроек iptables в отдельный файл через root
+4. Сохранение настроек iptables в отдельный файл через root
 
 ![](screenshots/save_iptables2.png)
 
@@ -167,7 +167,7 @@
 
 1. С помощью команды curl отправим запрос GET на http-сервер
 
-![](proverka.png)
+![](screenshots/curl_doesntwork.png)
 
 ## Проверка пингов без iptables
 
