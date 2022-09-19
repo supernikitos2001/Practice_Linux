@@ -264,8 +264,8 @@
 
 10. Попробуем отправить запрос POST на сервер
 
-![](screenshots/try21.png)
+![](screenshots/1234.png)
 
 11. Запрос не пришел, посмотрим что в tcpdump
 
-![](screenshots/tcpdump3.png)
+![](screenshots/12345.png)
