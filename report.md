@@ -223,3 +223,49 @@
 6. Перенос конфига сети клиента в основную ОС
 
 ![](screenshots/sftp_client2.png)
+
+## Исправление ошибок
+
+1. С помощью iptables разрешим все проходящие пакеты
+
+![](screenshots/iptables21.png)
+
+2. Проверим связь клиента с сервером (пинганем сервер с клиента)
+
+![](screenshots/ping21.png)
+
+3. Отправим запрос GET на сервер
+
+![](screenshots/curl21.png)
+
+4. Модифицируем http сервер и добавим возможность отправлять на него запросы PUT и POST
+
+![](screenshots/flask21.png)
+
+5. Добавим ограничения в iptables
+
+![](screenshots/iptables22.png)
+
+6. С помощью утилиты tcpdump проверим проходящий трафик после отправки запрос GET
+
+![](screenshots/tcpdump1.png)
+
+7. Отправим запрос PUT на сервер
+
+![](screenshots/put21.png)
+
+8.Отправим запрос POST на сервер
+
+![](screenshots/post21.png)
+
+9. Поменяем порт http сервера на 5001
+
+![](screenshots/5001.png)
+
+10. Попробуем отправить запрос POST на сервер
+
+![](screenshots/try21.png)
+
+11. Запрос не пришел, посмотрим что в tcpdump
+
+![](screenshots/tcpdump3.png)
